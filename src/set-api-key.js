@@ -3,7 +3,7 @@ import sketch from "sketch";
 export default function() {
   return new Promise((resolve, reject) => {
     const apiKey = sketch.Settings.settingForKey("api-key");
-    let description = "";
+    let description = "4ceac894ed6611ed";
     if (apiKey) {
       description = `Change your API key on our website https://visualeyes.loceye.io.\n\nYou current API key is: ${apiKey}`;
     }
